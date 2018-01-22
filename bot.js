@@ -9,7 +9,6 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    var letze = message.content;
     if (message.content === 'ping') {
     	message.channel.send('pong');
   	}
@@ -29,11 +28,12 @@ client.on('message', message => {
         var ausgabe = text1 + text2 + text3;
     	message.channel.send(ausgabe);
   	}
-    if (message.content === 'Warum?' || message.content === 'warum?') {
+    if (message.content === 'Warum?' || message.content === 'warum?'|| message.content === 'wieso?'|| message.content === 'Wieso?') {
     	if (letze == 'erens lol account' || message.content === 'Erens lol account'|| message.content === 'Erens lol Account') {
             message.channel.send('weil sein Freund gecheatet hat /:laugh:');
         }
   	}
+    var letze = message.content;
 });
 
 // THIS  MUST  BE  THIS  WAY
