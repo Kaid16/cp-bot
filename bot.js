@@ -33,8 +33,8 @@ client.on('message', message => {
             message.channel.send('weil sein Freund gecheatet hat /:laugh:');
         }
   	}
-    var letze = message.content;
 });
 
+var letze = message.content;
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
