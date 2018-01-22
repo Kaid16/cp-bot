@@ -22,7 +22,7 @@ client.on('message', message => {
     	message.channel.send('https://www.youtube.com/channel/UChUSMj5WAeooPfhRqvEjAkw');
   	}
     if (message.content === 'erens lol account' || message.content === 'Erens lol account') {
-    	message.channel.send('Erens lol Account ist ${9000-yyyy} Jahre gebannt');
+    	message.channel.send('Erens lol Account ist "+(9000-yyyy)" Jahre gebannt');
   	}
 });
 
