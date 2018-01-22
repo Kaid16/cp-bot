@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.channel.send('pong');
+    	message.channel.send('pong ak');
   	}
     if (message.content === '?') {
     	message.channel.send('Befehle:\n? - was ich kann\nemre\ncp\nerens lol account');
@@ -30,7 +30,7 @@ client.on('message', message => {
         var erenkontext = 1;
   	}
     if (message.content === 'Warum?' || message.content === 'warum?'|| message.content === 'wieso?'|| message.content === 'Wieso?') {
-    	if (erenkontext == 1) {
+    	if (erenkontext === 1) {
             message.channel.send('weil sein Freund gecheatet hat /:laugh:');
             erenkontext = 0;
         }
