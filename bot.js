@@ -27,30 +27,9 @@ client.on('message', message => {
         var text3 = ' Jahre gebannt!';
         var ausgabe = text1 + text2 + text3;
     	message.channel.send(ausgabe);
-        
-        //Erenkontext
-        var txtFile = "memory.txt";
-        var file = new File(txtFile);
-        file.open("w"); // open file with write access
-        file.write(1);
-        file.close();
   	}
     if (message.content === 'Warum?' || message.content === 'warum?'|| message.content === 'wieso?'|| message.content === 'Wieso?') {
-        var txtFile = "memory.txt";
-        var file = new File(txtFile);
-        file.open("r"); // open file with read access
-        var str = "";
-        while (!file.eof) {
-            // read each line of text
-            str += file.readln() + "\n";
-        }
-        file.close();
-        if (str === 1) {
-            message.channel.send('weil sein Freund gecheatet hat /:laugh:');
-        }
-        var file = new File(txtFile);
-        file.write("");
-        file.close();
+        message.channel.send('weil sein Freund gecheatet hat /:laugh:');
   	}
 });
 
