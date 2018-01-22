@@ -10,19 +10,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.channel.send('pong');
   	}
     if (message.content === '?') {
-    	message.reply('Befehle:\n? - was ich kann\nemre\ncp\nerens lol account');
+    	message.channel.send('Befehle:\n? - was ich kann\nemre\ncp\nerens lol account');
   	}
     if (message.content === 'emre' || message.content === 'Emre') {
-    	message.reply('Emre ist behindert, ja!');
+    	message.channel.send('Emre ist behindert, ja!');
   	}
     if (message.content === 'cp' || message.content === 'Cp') {
-    	message.reply('https://www.youtube.com/channel/UChUSMj5WAeooPfhRqvEjAkw');
+    	message.channel.send('https://www.youtube.com/channel/UChUSMj5WAeooPfhRqvEjAkw');
   	}
     if (message.content === 'erens lol account' || message.content === 'Erens lol account') {
-    	message.reply('Erens lol Account ist ${9000-yyyy} Jahre gebannt');
+    	message.channel.send('Erens lol Account ist ${9000-yyyy} Jahre gebannt');
   	}
 });
 
