@@ -29,7 +29,7 @@ client.on('message', message => {
     	message.channel.send(ausgabe);
   	}
     if (message.content === 'Warum?' || message.content === 'warum?'|| message.content === 'wieso?'|| message.content === 'Wieso?') {
-    	if (letze == 'erens lol account' || message.content === 'Erens lol account'|| message.content === 'Erens lol Account') {
+    	if (letze == 'erens lol account' || letze === 'Erens lol account'|| letze === 'Erens lol Account') {
             message.channel.send('weil sein Freund gecheatet hat /:laugh:');
         }
   	}
