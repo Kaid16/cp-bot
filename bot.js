@@ -27,14 +27,15 @@ client.on('message', message => {
         var text3 = ' Jahre gebannt!';
         var ausgabe = text1 + text2 + text3;
     	message.channel.send(ausgabe);
+        var erenkontext = 1;
   	}
     if (message.content === 'Warum?' || message.content === 'warum?'|| message.content === 'wieso?'|| message.content === 'Wieso?') {
-    	if (letze == 'erens lol account' || letze === 'Erens lol account'|| letze === 'Erens lol Account') {
+    	if (erenkontext == 1) {
             message.channel.send('weil sein Freund gecheatet hat /:laugh:');
+            erenkontext = 0;
         }
   	}
 });
 
-var letze = message.content;
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
