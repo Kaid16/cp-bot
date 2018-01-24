@@ -1,2 +1,6 @@
 # cp-bot
-Test Bot
+
+Test Discord Bot.
+
+Bot aktiv:
+https://discord.gg/4ywg58S
