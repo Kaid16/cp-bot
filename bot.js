@@ -27,6 +27,9 @@ client.on('message', message => {
         var text3 = ' Jahre gebannt!';
         var ausgabe = text1 + text2 + text3;
     	message.channel.send(ausgabe);
+    }
+    if (message.content === 'wasted' || message.content === 'Wasted') {
+        message.channel.send('http://www.ebay.de/itm/Onyxpanther-Sonnensteinpanther-Saphirpanther-Rubinpanher-Jadepanther-Bundle-/292084474735?clk_rvr_id=1424408190491&utm_medium=cpc&utm_source=twenga&utm_campaign=twenga&utm_param=eyJlcyI6MCwicyI6NTMzODY0NywiY2kiOiIwNGZiNzExYjdmZDcxM2EzYjlkZGRjOGMzZGMzNmQ3MSIsImkiOiIyOTIwODQ0NzQ3MzUiLCJ0cyI6MTUxNjkwMTc5NCwidiI6Mywic28iOjE1MDAsImMiOjEzOTk3M30%3D&rmvSB=true');
   	}
     if (message.content === 'Warum?' || message.content === 'warum?'|| message.content === 'wieso?'|| message.content === 'Wieso?') {
         message.channel.send('weil sein Freund gecheatet hat :joy:');
