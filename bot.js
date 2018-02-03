@@ -12,6 +12,9 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.channel.send('pong ak');
   	}
+    if (message.content === 'murat' || message.content === 'Murat') {
+    	message.channel.send('https://www.youtube.com/watch?v=TMEx2FdvDHk');
+  	}
     if (message.content === '?') {
     	message.channel.send('Befehle:\n? - was ich kann\nemre\ncp\nerens lol account');
   	}
