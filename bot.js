@@ -16,7 +16,7 @@ client.on('message', message => {
     	message.channel.send('https://www.youtube.com/watch?v=TMEx2FdvDHk');
   	}
     if (message.content === 'Was macht Mert gerade?') {
-    	message.channel.send('https://www.youtube.com/watch?v=TMEx2FdvDHk');
+    	message.channel.send('lololol https://www.youtube.com/watch?v=JPVIgshtOag');
   	}  
     if (message.content === '?') {
     	message.channel.send('Befehle:\n? - was ich kann\nemre\ncp\nerens lol account\nWas macht Mert gerade?\nMurat\nwasted');
